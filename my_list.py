@@ -25,18 +25,18 @@ def study():
     
     print('\n')
     
-    print('Lista completa di partenza: {}'.format(_list))
+    print('Complete starting LIST: {}'.format(_list))
     
     print('\n')
     print('##################')
     print('## ACCESS items ##')
     print('##################')
-    print('- Elemento index 1  --> {}'.format(_list[1]) )
-    print('- Elemento index -1 --> {}'.format(_list[-1]) )
-    print('- Elementi range index 2:5   --> {}'.format(_list[2:5]) )
-    print('- Elementi range index :4    --> {}'.format(_list[:4]) )
-    print('- Elementi range index 2:    --> {}'.format(_list[2:]) )
-    print('- Elementi range index -4:-1 --> {}'.format(_list[-4:-1]) )
+    print('- Item index 1  --> {}'.format(_list[1]) )
+    print('- Item index -1 --> {}'.format(_list[-1]) )
+    print('- Items range index 2:5   --> {}'.format(_list[2:5]) )
+    print('- Items range index :4    --> {}'.format(_list[:4]) )
+    print('- Items range index 2:    --> {}'.format(_list[2:]) )
+    print('- Items range index -4:-1 --> {}'.format(_list[-4:-1]) )
     print('\n')
 
 
@@ -46,10 +46,10 @@ def study():
     
     # CHANGE ITEM VALUE
     _list[0] = "lemon"
-    print('- Lista completa dopo CHANGE item index 0 --> {}'.format(_list))
+    print('- Complete list after CHANGE item index 0 --> {}'.format(_list))
     
     # LOOP THROUGH A LIST
-    print('- Ciclo FOR su list e print singoli elementi')
+    print('- FOR loop on list and print individual items')
     for x in _list:
         print('     {}'.format(x))
         
@@ -104,7 +104,7 @@ def study():
     try:
         print(_list)
     except Exception as e:
-        print('- Post   DEL list: il print(_list) va in errore poichè la lista non esiste più')
+        print('- Post DEL list: the print (_list) fails because the list no longer exists')
     
     print('\n')
     

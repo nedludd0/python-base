@@ -24,10 +24,10 @@ def main(_choose):
     elif _choose == 'dict':
         my_dict.study()
     else:
-        print("Ma che hai scelto?? :{}".format(_choose))
+        print("But what did you choose ?? :{}".format(_choose))
     
 if __name__ == "__main__":
     
-    _choose = input("Scegli la struttura (list, tuple, set, dict): ") 
+    _choose = input("Choose the structure to study (list, tuple, set, dict): ") 
     
     main(_choose)

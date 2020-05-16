@@ -16,18 +16,18 @@ def study():
     
     print('\n')
     
-    print('Tupla completa di partenza: {}'.format(_tuple))
+    print('Complete starting TUPLE: {}'.format(_tuple))
     
     print('\n')
     print('##################')
     print('## ACCESS items ##')
     print('##################')
-    print('- Elemento index 1  --> {}'.format(_tuple[1]) )
-    print('- Elemento index -1 --> {}'.format(_tuple[-1]) )
-    print('- Elementi range index 2:5   --> {}'.format(_tuple[2:5]) )
-    print('- Elementi range index :4    --> {}'.format(_tuple[:4]) )
-    print('- Elementi range index 2:    --> {}'.format(_tuple[2:]) )
-    print('- Elementi range index -4:-1 --> {}'.format(_tuple[-4:-1]) )
+    print('- Item index 1  --> {}'.format(_tuple[1]) )
+    print('- Item index -1 --> {}'.format(_tuple[-1]) )
+    print('- Items range index 2:5   --> {}'.format(_tuple[2:5]) )
+    print('- Items range index :4    --> {}'.format(_tuple[:4]) )
+    print('- Items range index 2:    --> {}'.format(_tuple[2:]) )
+    print('- Items range index -4:-1 --> {}'.format(_tuple[-4:-1]) )
     print('\n')
 
     print('######################')
@@ -35,7 +35,7 @@ def study():
     print('######################')
     
     # LOOP THROUGH A LIST
-    print('- Ciclo FOR su tuple e print singoli elementi')
+    print('- FOR loop on tuple and print individual elements')
     for x in _tuple:
         print('     {}'.format(x))
         
@@ -56,7 +56,7 @@ def study():
     try:
         print(_tuple)
     except Exception as e:
-        print('- Post   DEL tuple: il print(_tuple) va in errore poichè la tupla non esiste più')
+        print('- Post DEL tuple: the print (_tuple) fails because the tuple no longer exists')
     print('-------------------------------------------------------')
     # JOIN two tuple
     print('# JOIN #')

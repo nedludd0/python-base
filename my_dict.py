@@ -30,14 +30,14 @@ def study():
 
     print('\n')
     
-    print('Dizionario completo di partenza: {}'.format(_dict))
+    print('Complete starting DICT: {}'.format(_dict))
     
     print('\n')
     print('##################')
     print('## ACCESS items ##')
     print('##################')
-    print('- Elemento model, accesso diretto --> {}'.format(_dict["model"]) )
-    print('- Elemento model, accesso con get --> {}'.format(_dict.get("model")) )
+    print('- Model element, direct access --> {}'.format(_dict["model"]) )
+    print('- Model element, access with get --> {}'.format(_dict.get("model")) )
     print('\n')
 
     print('##############################')
@@ -46,24 +46,24 @@ def study():
     
     # CHANGE ITEM VALUE
     _dict["brand"] = "Fiat"
-    print('- Dizionario dopo CHANGE brand --> {}'.format(_dict))
+    print('- Dictionary after CHANGE brand --> {}'.format(_dict))
     
     print('\n')
     
     # LOOP THROUGH A DICT
-    print('- Ciclo FOR semplice su dict e print solo key names')
+    print('- Simple FOR loop on dict and print only key names')
     for x in _dict:
         print('     {}'.format(x))
         
-    print('- Ciclo FOR semplice su dict e print solo key values')
+    print('- Simple FOR loop on dict and print only key values')
     for x in _dict:
         print('     {}'.format(_dict[x]))
 
-    print('- Ciclo FOR semplice su dict e print solo key values')
+    print('- Simple FOR loop on dict and print only key values')
     for x in _dict.values():
         print('     {}'.format(x))
 
-    print('- Ciclo FOR completo su dict e print all')
+    print('- Complete FOR loop on dict and print all')
     for x, y in _dict.items():
         print('     {} = {}'.format(x,y))
 
@@ -113,7 +113,7 @@ def study():
     try:
         print(_dict)
     except Exception as e:
-        print('- Post   DEL dict: il print(_dict) va in errore poichè il dict non esiste più')
+        print('- Post DEL dict: the print (_dict) fails because the dict no longer exists')
     
     print('\n')
 

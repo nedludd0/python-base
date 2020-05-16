@@ -31,7 +31,7 @@ def study():
     
     print('\n')
     
-    print('Set completo di partenza: {}'.format(_set))
+    print('Complete starting SET: {}'.format(_set))
     
     print('\n')
     print('#######################')
@@ -39,7 +39,7 @@ def study():
     print('#######################')
     
     # LOOP THROUGH A SET
-    print('- Ciclo FOR su set e print singoli elementi')
+    print('- FOR loop on set and print individual elements')
     for x in _set:
         print('     {}'.format(x))
         
@@ -89,7 +89,7 @@ def study():
     try:
         print(_set)
     except Exception as e:
-        print('- Post   DEL set: il print(_set) va in errore poichè il set non esiste più')
+        print('- Post DEL set: the print (_set) fails because the set no longer exists')
     
     print('\n')
 
